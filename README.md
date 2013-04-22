@@ -8,6 +8,16 @@ This project will contain the topics of algorithms and data structures found in 
 Algorithms 4th Ed by Robert Sedgewick and Kevin Wayne, focusing on the book and the exercises at http://algs4.cs.princeton.edu/home/
 
 You can get a quick introduction to the project's details with this [Google Doc presentation](http://bit.ly/UbsG8O).
+
+<h2>The Project Itself</h2>
+
+You can find a self-extracting zip archive that contains a VirtualBox machine that has this project
+setup along with an editor here: [Jedi Factory Box](https://dl.dropboxusercontent.com/u/51372946/Jedi%20Factory.exe)
+
+The credentials to login into the Ubuntu Linux OS inside the VirtualBox machine are:
+
+username: padawan  
+password: matr1234
   
 <h2>Code Structure</h2>
   
