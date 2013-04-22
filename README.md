@@ -15,7 +15,7 @@ It is a Virtualbox machine with Ubuntu 12.04 installed and the Jedi Factory proj
 
 You can find a self-extracting zip archive that contains a VirtualBox machine that has this project
 setup along with an editor here: 
-[Download the Jedi Factory Box](https://dl.dropboxusercontent.com/u/51372946/Jedi%20Factory.exe)
+[Download the Jedi Factory Box](http://bit.ly/11uWxIM)
 
 The credentials to login into the Ubuntu Linux OS inside the VirtualBox machine are:
 
