@@ -9,7 +9,9 @@ Algorithms 4th Ed by Robert Sedgewick and Kevin Wayne, focusing on the book and 
 
 You can get a quick introduction to the project's details with this [Google Doc presentation](http://bit.ly/UbsG8O).
 
-<h2>The Project Itself</h2>
+<h2>The Jedi Box</h2>
+
+It is a Virtualbox machine with Ubuntu 12.04 installed and the Jedi Factory project setup in it.
 
 You can find a self-extracting zip archive that contains a VirtualBox machine that has this project
 setup along with an editor here: [Jedi Factory Box](https://dl.dropboxusercontent.com/u/51372946/Jedi%20Factory.exe)
@@ -42,12 +44,32 @@ Folder organization:
       * xxx.rb
 
 <h2>Usage</h2>
-  
-How to setup the project on Linux:
+
+How to start using the project on the Jedi Box:
+````bash
+ubuntuminial login: padawan
+Password: matr1234
+
+padawan@ubuntuminimal:~$ startx
+# In the LXDE Window Environment: Start -> Accessories -> LXTerminal
+# Inside the LXTerminal
+padawan@ubuntuminimal:~$ enlightment.sh
+# This will open Sublime Text 2 and run Guard the continous test runner
+````
+
+How to setup the project on your own Linux Box:
 
 ````bash
 cd $HOME
-cd algorithms_user_project
+# initialize the git repository
+mkdir jedi_factory
+cd jedi_factory
+git init .
+git remote add origin git://github.com/marcel-valdez/algorithms-user-project.git
+git pull origin master
+# initialize dependencies
 bundle install
+# run Guard the automatic test runner.
 bundle exec guard
+# Go and shed the light! (Solve exercises)
 ````
