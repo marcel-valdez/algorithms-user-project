@@ -75,3 +75,10 @@ bundle install
 bundle exec guard
 # Go and shed the light! (Solve exercises)
 ````
+<h3>Updating your Jedi Box with the most recent changes</h3>
+````bash
+# Inside a terminal
+padawan@ubuntuminimal:~$ cd $HOME/learn
+padawan@ubuntuminimal:~$ git pull origin master
+# Easy as that!
+````
