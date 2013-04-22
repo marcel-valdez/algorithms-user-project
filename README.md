@@ -7,7 +7,7 @@ must pass tests that specify the behavior of many fundamental algorithms and dat
 This project contains the topicss of algorithms and data structures found in the book:
 Algorithms 4th Ed by Robert Sedgewick and Kevin Wayne, focusing on the book and the exercises at http://algs4.cs.princeton.edu/home/
 
-**You are strongly encouraged** to watch the Jedi Factory filosophy, ideas and instructions in this [Google Doc presentation](http://bit.ly/UbsG8O), 
+**You are strongly encouraged** to watch the Jedi Factory philosophy, ideas and instructions in this [Google Doc presentation](http://bit.ly/UbsG8O), 
 before you start using the Jedi Box.
 
 <h2>The Jedi Box</h2>
