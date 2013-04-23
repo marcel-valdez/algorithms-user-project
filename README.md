@@ -1,3 +1,5 @@
+# Jedi Factory
+
 <h2>Description</h2>
   
 This project is inspired by RubyKoans (http://rubykoans.com), in the sense of using TDD for learning.
