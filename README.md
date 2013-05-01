@@ -18,7 +18,7 @@ It is a Virtualbox machine with minimal Ubuntu 12.04 installed and the Jedi Fact
 
 You can find a self-extracting zip archive that contains a VirtualBox machine that has this project
 setup along with an editor here: 
-[Download the Jedi Factory Box](http://bit.ly/11uWxIM)
+[Download the Jedi Box](http://bit.ly/11uWxIM)
 
 The credentials to login into the Ubuntu Linux OS inside the VirtualBox machine are:
 
