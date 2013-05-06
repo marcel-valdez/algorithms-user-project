@@ -19,7 +19,7 @@ It is a Virtualbox machine with minimal Ubuntu 12.04 installed and the Jedi Fact
 You can find a self-extracting zip archive that contains a VirtualBox machine that has this project
 setup along with an editor here: 
 [Download the Jedi Box SFX Archive](http://bit.ly/11bDCb5) (574 mb)  
-[Download the Jedi Box ZIP Archive](http://bit.ly/115RR11) (823 mb)
+[Download the Jedi Box ZIP Archive](http://bit.ly/115RR11) (813 mb)
 
 The credentials to login into the Ubuntu Linux OS inside the VirtualBox machine are:
 
