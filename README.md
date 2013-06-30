@@ -55,11 +55,14 @@ How to start using the project on the Jedi Box:
 
 ### Easy Way
 
-1. Go into our Cloud9 IDE Workspace: https://t.co/hFo2QwuS2F
+1. Go into our Cloud9 IDE Workspace: https://c9.io/marcel_valdez/algorithms-user-project
 2. Clone the workspace into your Cloud9 IDE account (create an acccount if you don't have one)
 3. Start coding right away!
+4. In the terminal type: `bundle exec guard`
+5. Go into one of the tests and comment one of the `omit(Yet to see the light)` methods to work on that test.
+6. Implement the method corresponding to that test.
 
-### Modern Way
+### Offline Way
 
 ````bash
 ubuntuminial login: padawan
