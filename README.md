@@ -51,7 +51,7 @@ How to start using the project on the Jedi Box:
 5. Go into one of the tests and comment one of the `omit(Yet to see the light)` methods to work on that test.
 6. Implement the method corresponding to that test.
 
-For more details read the [Google Doc presentation](http://bit.ly/UbsG8O).
+For more details on implementing tests read the [Google Doc presentation](http://bit.ly/UbsG8O).
 
 ### Using the Jedi Box
 
