@@ -6,7 +6,7 @@ This project is inspired by RubyKoans (http://rubykoans.com), in the sense of us
 This project helps the user learn Computer Science fundamentals by asking of him to code methods that
 must pass tests that specify the behavior of many fundamental algorithms and data structures.
 
-This project contains the topicss of algorithms and data structures found in the book:
+This project contains the topics of algorithms and data structures found in the book:
 Algorithms 4th Ed by Robert Sedgewick and Kevin Wayne, focusing on the book and the exercises at http://algs4.cs.princeton.edu/home/
 
 **You are strongly encouraged** to watch the Jedi Factory philosophy, ideas and instructions in this [Google Doc presentation](http://bit.ly/UbsG8O),
@@ -20,20 +20,23 @@ The folders `src` and `test` have a simmetric structure:
 * `src/` contains the exercise definitions (only methods, no implementation)
 * `src/utils/` contains data structure definitions needed to solve the exercises (only classes and methods, no implementation)
 
-Folder organization:
-* test/
-    * chapter_x/
-      * section_y/
-          * zzz_exercises_test.rb
-    * utils/
-      * xxx_test.rb
+### Folder organization:
 
-* src/
-    * chapter_x/
-        * section_y/
-          * zzz_exercises.rb
-    * utils/
-      * xxx.rb
+````
+test/
+|-- chapter_x/
+    |-- section_y/
+        |-- zzz_exercises_test.rb
+    |-- utils/
+        |-- xxx_test.rb
+
+src/
+|-- chapter_x/
+    |-- section_y/
+        |-- zzz_exercises.rb
+    |-- utils/
+        |-- xxx.rb
+````
 
 ## Usage
 
