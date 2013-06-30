@@ -5,17 +5,13 @@ notification :off
 guard :test, :cli => '--use-color --no-show-detail-immediately --verbose=important-only' do
   # Watch all exercise files and run their respective test
   watch(%r{^src/(.+)\.rb}) { |m| "test/#{m[1]}_test.rb" }
-
   # Watch all tests
   watch(%r{^(test/.+_test\.rb)$}) { |m| "#{m[1]}" }
-
   #Watch the test helper, and if modified, run all tests
   watch('test/test_helper.rb') { 'test' }
-
   # Watch any test helpers for each chapter
   # watch(test/[chapter|section]+/*_helper.rb) { run test/[chapter]/**/* files}
   watch(%r{^test/(.+)/.+_helper\.rb$}) { |m| "test/#{m[1]}" }
-
   # Watch the utils directory, and if modified run all tests
   # noinspection RubyLiteralArrayInspection
   watch(%r{^src/utils/(.+)\.rb$}) { |m|
@@ -29,3 +25,5 @@ guard :test, :cli => '--use-color --no-show-detail-immediately --verbose=importa
     ]
   }
 end
+
+require "#{File.dirname(__FILE__)}/fix_guard_runner.rb"
