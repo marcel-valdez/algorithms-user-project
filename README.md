@@ -12,27 +12,13 @@ Algorithms 4th Ed by Robert Sedgewick and Kevin Wayne, focusing on the book and 
 **You are strongly encouraged** to watch the Jedi Factory philosophy, ideas and instructions in this [Google Doc presentation](http://bit.ly/UbsG8O),
 before you start using the Jedi Box.
 
-## The Jedi Box
-
-It is a Virtualbox machine with minimal Ubuntu 12.04 installed and the Jedi Factory project setup in it.
-
-You can find a self-extracting zip archive that contains a VirtualBox machine that has this project
-setup along with an editor here:
-[Download the Jedi Box SFX Archive](http://bit.ly/11bDCb5) (574 mb)
-[Download the Jedi Box ZIP Archive](http://bit.ly/115RR11) (813 mb)
-
-The credentials to login into the Ubuntu Linux OS inside the VirtualBox machine are:
-
-username: padawan
-password: matr1234
-
 ## Code Structure
 
-The folders src and test have a simmetric structure:
-* test/ contains tests for the exercises.
-* tes/utils/ contains tests for the data structures.
-* src/ contains the exercise definitions (only methods, no implementation)
-* src/utils/ contains data structure definitions needed to solve the exercises (only classes and methods, no implementation)
+The folders `src` and `test` have a simmetric structure:
+* `test/` contains tests for the exercises.
+* `tes/utils/` contains tests for the data structures.
+* `src/` contains the exercise definitions (only methods, no implementation)
+* `src/utils/` contains data structure definitions needed to solve the exercises (only classes and methods, no implementation)
 
 Folder organization:
 * test/
@@ -62,7 +48,21 @@ How to start using the project on the Jedi Box:
 5. Go into one of the tests and comment one of the `omit(Yet to see the light)` methods to work on that test.
 6. Implement the method corresponding to that test.
 
-### Offline Way
+### Using the Jedi Box
+
+Jedi Box a Virtualbox machine with minimal Ubuntu 12.04 installed and the Jedi Factory project setup in it.
+
+You can find a self-extracting zip archive that contains a VirtualBox machine that has this project
+setup along with an editor here:
+[Download the Jedi Box SFX Archive](http://bit.ly/11bDCb5) (574 mb)
+[Download the Jedi Box ZIP Archive](http://bit.ly/115RR11) (813 mb)
+
+The credentials to login into the Ubuntu Linux OS inside the VirtualBox machine are:
+
+username: padawan
+password: matr1234
+
+Boot up your virtual machine and do the following.
 
 ````bash
 ubuntuminial login: padawan
